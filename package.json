@@ -1,0 +1,24 @@
+{
+    "name": "solidity-bootcamp",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rm -rf artifacts cache && hardhat compile",
+        "test": "hardhat test"
+    },
+    "keywords": [
+      "ethereum"
+    ],
+    "author": "",
+    "license": "ISC",
+    "homepage": "",
+    "dependencies": {},
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^2.0.2"
+    },
+    "engines": {
+      "node": "^16.0.0 || ^18.0.0"
+    }
+  }
+  
